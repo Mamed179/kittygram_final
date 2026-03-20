@@ -150,3 +150,25 @@ media/
 
 # Others
 node_modules
+
+# Docker
+docker-compose.override.yml
+*.pid
+.Dockerfile
+.dockerignore
+
+# Frontend build
+frontend/build/
+frontend/node_modules/
+
+# Static files collected by Django
+static/
+staticfiles/
+
+# Environment variables example (но .env уже есть в списке выше)
+.env.example
+
+# Secret files
+secrets/
+*.pem
+*.key
